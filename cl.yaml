@@ -22,3 +22,9 @@ storage:
           DNS=192.168.77.11
           Address=IPADDRESS/24
           Gateway=192.168.77.10
+systemd:
+  units:
+    - name: locksmithd.service
+      mask: true
+    - name: update-engine.service
+      enabled: true
