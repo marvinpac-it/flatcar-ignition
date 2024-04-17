@@ -1,7 +1,10 @@
 # flatcar-ignition
 fichier de configuration pour setup flatcar
 
-## utilisation
+## Prérequis
+Dans le BIOS mettre les disques SATA en mode IDE au lieu de AHCI sans quoi les disques seront vus comme "removable"
+
+## Utilisation
 Démarrer FlatCar avec l'image ISO sur le PC à déployer puis exécuter les instructions suivantes
 
     git clone https://github.com/marvinpac-it/flatcar-ignition.git
