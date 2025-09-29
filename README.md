@@ -2,7 +2,8 @@
 fichier de configuration pour setup flatcar
 
 ## Prérequis
-Dans le BIOS mettre les disques SATA en mode IDE au lieu de AHCI sans quoi les disques seront vus comme "removable"
+- Une Clé USB avec le ISO de [flatcar version Stable](https://www.flatcar.org/releases). 
+- Dans le BIOS mettre les disques SATA en mode IDE au lieu de AHCI sans quoi les disques seront vus comme "removable"
 
 ## Utilisation
 Démarrer FlatCar avec l'image ISO sur le PC à déployer puis exécuter les instructions suivantes
